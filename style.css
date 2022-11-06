@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background-image: url(img/bg.png), radial-gradient(circle closest-side, #000 10%, #000 70%); /*...linear-gradient(180deg, #ff4280 0%, #ff9c00 100%);..*/
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: inter, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-rendering: optimizeLegibility;
+    overflow-y: hidden;
+}
+
+header{
+    height: 100vh;
+    position: relative;
+}
+
+
+/*.....NAV BAR.....*/
+nav{
+   
+    display: block;
+}
+
+.logo{
+    width: 10rem;
+    height: auto;
+    padding: .5rem 1rem;
+}
+
+/*.....HERO.....*/
+
+.hero{
+    position: relative;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*.....HEADING.....*/
+
+.heading h1{
+    font-size: 2rem;
+    word-spacing: .2rem;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+}
+
+.heading p{
+    margin-bottom: 2rem;
+    word-spacing: .1rem;
+}
+
+/*.....choose-image.....*/
+
+
+.choose-image .choose{
+    margin-right: 2rem;
+}
+.choose-image a{
+    text-decoration: none;
+    
+    
+}
+
+.choose-image p{
+   margin-bottom: 4rem;
+}
+
+.footer h3{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: .5rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer span, .footer .span{
+    color: #4E96EC;
+}
+
+.icon{
+    font-size: 20px;
+    color: white;
+    padding-right: 15px;
+    z-index: 100;
+}
+
+
+
+.search{
+    width: 21rem;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #000;
+   
+   
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+}
+
+.search input, .search label{
+    font-family: inter;
+    font-size: 1rem;
+    background-color: transparent;
+    
+    border: 0;
+    outline: none;
+    padding: 0rem 0rem;
+    color: white;
+    overflow-x: hidden;
+}
+
+::placeholder{
+    color: #FFF;
+    width: 7rem;
+
+}
+
+
+
+.search button .icon, .search label .icon{
+    width: 2rem;
+    font-size: 1rem;
+
+}
+
+.search button, .search label{
+    font-family: inter;
+    border: 0;
+    color: white;
+    background-color: transparent;
+    cursor:pointer;
+}
+
+.choose-image form{
+    margin-bottom: 4rem;
+}
+
+.choose-image label{
+   display: flex;
+
+}
+
+
+.container{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 2rem;
+    z-index: 10000000;
+    height: 90%;
+    width: 60%;
+    border-radius: 1rem;
+    background-color: #0F090B;
+   
+    
+
+}
+
+.container form{
+    border-bottom: 1px solid #616161;
+    padding-bottom: 1rem;
+}
+
+
+.container input{
+    background-color: #3E404B;
+    width: 70%;
+    padding: 1rem 1rem;
+    outline: none;
+    border: 0;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: #fff;
+
+}
+
+.container input::placeholder{
+    width: 25rem;
+    color: 1rem;
+    font-family: inter;
+    color: #8F92AB;
+    display: inline-block;
+
+} 
+
+.container button{
+    width: 20%;
+    background-color: #3794FF;
+    padding: .8rem 1rem;
+    border-radius: 1rem;
+    font-family: inter;
+    color: #fff;
+    font-size: 1rem;
+     border: 0;
+
+}   
+
+.container input: -webkit-autofill{
+    background-color: none !important;
+}
+.container input:-webkit-autofill, 
+.container input:-webkit-autofill:hover, 
+.container input:-webkit-autofill:focus, 
+.container textarea:-webkit-autofill, 
+.container textarea:-webkit-autofill:hover, 
+.container textarea:-webkit-autofill:focus, 
+.container select:-webkit-autofill, 
+.container select:-webkit-autofill:hover, 
+.container select:-webkit-autofill:focus {-webkit-text-fill-color: #fff;  transition: background-color 5000s ease-in-out 0s; }
